@@ -1,0 +1,39 @@
+{
+  "name": "projbackend",
+  "version": "1.0.0",
+  "description": "Developing a Backend for Ecommerce Store",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm start --prefix ./client",
+    "dev": "concurrently \"npm start\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eternalbasic1/EcommerceProject.git"
+  },
+  "author": "VineethReddy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eternalbasic1/EcommerceProject/issues"
+  },
+  "homepage": "https://github.com/eternalbasic1/EcommerceProject#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "braintree": "^3.13.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-jwt": "^8.2.0",
+    "express-validator": "^6.14.2",
+    "formidable": "^2.1.1",
+    "jsonwebtoken": "^9.0.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.8.1",
+    "nodemon": "^2.0.20",
+    "stripe": "^11.6.0",
+    "uuid": "^9.0.0"
+  }
+}
