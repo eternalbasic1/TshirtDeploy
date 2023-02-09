@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.6c62654d.css","mappings":"AAAA,4BAGE,eACF,CAEA,KACE,kBACF,CAEA,cACE,qBACF","sources":["styles.css"],"sourcesContent":[".btn,\n.jumbotron,\n.nav :hover {\n  border-radius: 0px;\n}\n\nbody {\n  background: #343a40;\n}\n\n.form-control {\n  border: 1px solid black;\n}"],"names":[],"sourceRoot":""}
